@@ -1,0 +1,65 @@
+input{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+    height: 20px;
+    width: 170px;
+    /* margin: 5px; */
+    transition: all 0.5s;
+    color: white;
+}
+
+input::placeholder{
+    color: rgb(68, 68, 68);
+}
+
+input:focus::placeholder{
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+
+input:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+    transition: all 0.5s;
+}
+
+input:focus{
+    background-color: rgba(255, 255, 255, 0.6);
+    outline: transparent;
+    transition: all 0.5s;
+}
+
+button{
+    display: block;
+    margin: auto;
+    width: 170px;
+    border: 1px solid #000;
+    background-color: rgba(110, 110, 110, 0.4);
+    color: white;
+    transition: all 0.5s;
+}
+
+button:focus{
+    outline: transparent;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #fff;
+    transition: all 0.5s;
+}
+
+.passResult{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    transition: all 0.5s;
+}
+
+.passResult:hover{
+    color: #fff;
+    transition: all 0.5s;
+}
