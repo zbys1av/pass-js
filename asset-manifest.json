@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/zbys1av/pass-js/static/css/main.58feb9d5.chunk.css",
+    "main.js": "/zbys1av/pass-js/static/js/main.0898ce6a.chunk.js",
+    "main.js.map": "/zbys1av/pass-js/static/js/main.0898ce6a.chunk.js.map",
+    "runtime-main.js": "/zbys1av/pass-js/static/js/runtime-main.13b215b6.js",
+    "runtime-main.js.map": "/zbys1av/pass-js/static/js/runtime-main.13b215b6.js.map",
+    "static/js/2.045db4d6.chunk.js": "/zbys1av/pass-js/static/js/2.045db4d6.chunk.js",
+    "static/js/2.045db4d6.chunk.js.map": "/zbys1av/pass-js/static/js/2.045db4d6.chunk.js.map",
+    "index.html": "/zbys1av/pass-js/index.html",
+    "static/css/main.58feb9d5.chunk.css.map": "/zbys1av/pass-js/static/css/main.58feb9d5.chunk.css.map",
+    "static/js/2.045db4d6.chunk.js.LICENSE.txt": "/zbys1av/pass-js/static/js/2.045db4d6.chunk.js.LICENSE.txt",
+    "static/media/app.css": "/zbys1av/pass-js/static/media/img-1.8b0b3937.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13b215b6.js",
+    "static/js/2.045db4d6.chunk.js",
+    "static/css/main.58feb9d5.chunk.css",
+    "static/js/main.0898ce6a.chunk.js"
+  ]
+}
