@@ -22,7 +22,7 @@ export default class Input extends Component{
         const createDomain = site.split("").slice(0,4).join("")
         const username = [login.split("").slice(0,2).join(""), login.split("").splice(login.length-2,login.length).join("")]
         const digits = [sevenDigits.split("").slice(0,3).join(""), sevenDigits.split("").slice(3,sevenDigits.length).join("")]
-        const together = username[0] + digits[0] + site.length + createDomain + digits[1] + username[1]
+        const together = username[0].toUpperCase + digits[0] + site.length + createDomain + digits[1] + username[1]
         this.setState({result: together.split("").map(c => c === "a" ? "4" : c === "i" ? "1" : c === "e" ? "3" : c === "o" ? "0" : c).join("")})
     }
     
